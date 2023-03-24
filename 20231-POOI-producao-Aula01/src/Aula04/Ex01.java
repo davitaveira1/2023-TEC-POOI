@@ -19,8 +19,11 @@ public class Ex01 {
         System.out.print("Informe o nome: ");
         nome = leia.next();
         
+        //resolvendo detalhe do nextLine();
+        leia.nextLine();
+        
         System.out.print("Informe o sobrenome: ");
-        sobrenome = leia.next();
+        sobrenome = leia.nextLine();
         
         System.out.println(nome+" "+sobrenome);
     }
